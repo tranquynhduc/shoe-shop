@@ -1,0 +1,51 @@
+.policy {
+    width: 100%;
+    max-width: 85%;
+    margin: 0 auto 100px;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0 20px;
+
+        & > * {
+            width: calc(25% - 15px);
+        }
+    }
+
+    &__item {
+        padding: 20px 20px 20px 25px;
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+        box-shadow: 0 0 15px 5px rgba(black, 0.15);
+        cursor: pointer;
+        transition: 0.3s linear;
+
+        &:hover {
+            transform: translateY(-15px);
+
+            .policy__title {
+                color: #4267b2;
+            }
+        }
+    }
+
+    &__icon {
+        font-size: 22px;
+        color: #4267b2;
+    }
+
+    &__title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    &__desc {
+        color: gray;
+        font-size: 13px;
+    }
+}

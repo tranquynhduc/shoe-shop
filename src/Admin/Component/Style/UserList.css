@@ -1,0 +1,356 @@
+.avatar_user {
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 10px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+h2{
+    font-weight: bold;
+}
+table,
+th,
+td {
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th,
+td {
+    text-align: center;
+    padding: 20px 0px 20px 5px;
+
+}
+
+
+tr:hover {
+    background-color: #eee;
+}
+
+th {
+    background-color: rgb(60, 60, 60);
+    color: #fff;
+}
+
+.spantitle {
+    position: absolute;
+    margin-top:30px;
+    margin-left: -22px;
+    margin-left: -15px;
+}
+.btn_with{
+    position:relative;
+    margin-left:210px;
+
+
+}
+
+
+
+.userShowLeft {
+    display: flex;
+    margin-left:20px;
+}
+.recharts{
+    flex: 4;
+}
+
+.btn_edit {
+    margin-right: 5px;
+    padding: 10px 25px;
+    background-color: #0000cc;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.btn_edit:hover {
+    background: linear-gradient(to bottom, #66ccff 0%, #0066ff 100%);
+}
+
+.btn_delete {
+    padding: 10px 15px;
+    background: linear-gradient(to bottom, #800000 0%, #ff0000 100%);
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.btn_delete:hover {
+    background: linear-gradient(to bottom, #ff0000 0%, #ff6600 100%);
+}
+
+
+.container_edit {
+
+    width:80%;
+    height:auto;
+    margin-top: -20px;
+    position: absolute;
+    background-color: #f5f3f4;
+
+}
+
+.serach:hover{
+    background-color: #eee;
+}
+.left_edituser {
+    width: 97%;
+    color: #fff;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    background-color: #2b2d42;
+    margin-right: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.right_edituser {
+    margin-top: 25px;
+    background-color: #f5f3f4;
+    height: 100%;
+}
+
+
+.btn_create {
+
+    color: #fff;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    background-color: #0033cc;
+    width: 200px;
+    padding: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+
+}
+
+.btn_create:hover {
+    background: linear-gradient(to bottom, #0000cc 0%, #3399ff 100%);
+
+}
+
+.edit_age{
+
+    margin-left:25px;
+
+}
+.edit_gender{
+
+    position: absolute;
+    margin-top:-20px;
+    margin-left:120px;
+}
+.icon_gender{
+
+    margin-right: 10px;
+    margin-left:15px;
+}
+.icon_age{
+
+    margin-right: 10px;
+}
+
+.center {
+    text-align: center;
+  }
+
+  .pagination {
+
+    cursor: pointer;
+    margin-top: 15px;
+    display: inline-block;
+  }
+
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+  .btn_cancel:hover{
+    background: linear-gradient(to bottom, #0000cc 0%, #3399ff 100%);
+
+  }
+  .edit_name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+      margin-top:20px;
+  }
+  .edit_fullname{
+    margin-top:20px;
+    font-size: 20px;
+
+  }
+  .userShowInforTitle {
+      width: 80%;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    color:rgb(220, 218, 218);
+    font-size: 25px;
+
+
+
+}
+::placeholder{
+    color: #fff;
+}
+.left_btn{
+    display:flex;
+
+}
+.btn_information{
+
+    color: rgb(118, 117, 117);
+    background-color: #f5f3f4;
+
+    padding:12px 20px 12px 20px;
+    margin-top:15px;
+    border:2px solid rgb(174, 168, 168);
+    margin-left: 270px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+.listUser{
+    margin-bottom: 10px;
+}
+
+.btn_information:hover{
+    color: rgb(60, 59, 59);
+    background-color: #e2dfe1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.btn_overview{
+    color: rgb(118, 117, 117);
+    background-color: #f5f3f4;
+    padding:10px 15px 10px 15px;
+    margin-top:15px;
+    border:2px solid rgb(174, 168, 168);
+
+    margin-left: 10px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+.btn_overview:hover{
+    color: rgb(60, 59, 59);
+
+    background-color: #e2dfe1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.btn_setting{
+    color: rgb(118, 117, 117);
+    background-color: #f5f3f4;
+    padding:12px 20px 12px 20px;
+    margin-top:15px;
+    border:2px solid rgb(174, 168, 168);
+    margin-left: 10px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+}
+.btn_setting:hover{
+    color: rgb(60, 59, 59);
+
+    background-color: #e2dfe1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.right_{
+    display: flex;
+    margin-left:20px;
+}
+.edit_flex_left{
+    flex: 2;
+    height:340px;
+
+}
+.edit_flex_right{
+    flex:4;
+    height:340px;
+}
+.serach{
+    border-radius: 5px;
+    padding-left:20px;
+    border: solid 1px #ccc;
+    width: 28%;
+    height: 30px;
+    margin-left: 20px;
+}
+.iconSerach{
+    position:absolute;
+    margin-left:25px;
+    margin-top:17px;
+    color:rgb(111, 110, 110);
+    font-size: 15px;
+
+}
+.sortUser{
+ margin-left: 20px;
+ width: 200px;
+ border-radius:5px;
+ height:30px;
+ -webkit-border-radius:5px;
+ -moz-border-radius:5px;
+ -ms-border-radius:5px;
+ -o-border-radius:5px;
+}

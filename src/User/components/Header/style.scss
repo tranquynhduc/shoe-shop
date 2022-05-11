@@ -1,0 +1,45 @@
+.header {
+    box-shadow: 0 0 10px rgba(black, 0.2);
+    margin-bottom: 50px;
+    padding: 25px 0;
+    
+    &__main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__menu {
+        display: flex;
+        align-items: center;
+        gap: 0 50px;
+    }
+
+    &__item {
+        a {
+            transition: 0.15s linear;
+        }
+
+        &:hover a {
+            color: blue;
+        }
+
+        &-active {
+            color: blue;
+        }
+    }
+
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: 0 15px;
+        
+        a {
+            transition: 0.2s ease-in-out;
+        }
+
+        a:hover {
+            transform: translateY(-4px);
+        }
+    }
+}

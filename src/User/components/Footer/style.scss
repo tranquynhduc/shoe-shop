@@ -1,0 +1,49 @@
+.footer {
+    padding: 40px 0;
+    box-shadow: 0 0 15px rgba(black, 0.2);
+
+    &__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0 60px;
+
+        & > * {
+            width: calc(33.33% - 40px);
+        }
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    &__phone, &__address {
+        display: flex;
+        gap: 0 15px;
+        font-size: 15px;
+        color: #787878;
+    }
+
+    &__title {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    &__item {
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.15s linear;
+
+        &:hover {
+            color: #4267b2;
+        }
+    }
+}

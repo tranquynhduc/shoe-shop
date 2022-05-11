@@ -1,0 +1,104 @@
+.swiper {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    margin-bottom: 70px;
+    
+    &__item {  
+        display: flex;
+        align-items: center;
+        gap: 0 50px;
+        
+        & > * {
+            width: 50%;
+        }
+    }
+    
+    &__content {
+        text-transform: uppercase;
+
+        span, h2 {
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        span {
+            display: inline-block;
+            color: rgb(252, 118, 69);
+        }
+
+        h2 {
+            color: rgb(58, 54, 54);
+            font-weight: 600;
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 14px;
+            color: gray;
+            line-height: 1.6;
+        }
+    }
+    
+    &__image {
+        transform-origin: center;
+        padding-right: 80px;
+        img {
+            width: 100%;
+        }
+    }
+
+    &-slide-active {
+        .swiper__content {
+            animation: moveRight 0.8s ease-out;
+        }
+        .swiper__image {
+            animation: scaleImage 0.6s ease-in-out;
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 100rem;
+        border: 2px solid black;
+        color: black;
+        transition: 0.15s linear;
+        
+        &::after {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .swiper-button-prev {
+        left: 0;
+    }
+    .swiper-button-next {
+        right: 0;
+    }
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleImage {
+    from {
+        transform: scale(0.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}

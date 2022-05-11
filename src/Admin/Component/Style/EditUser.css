@@ -1,0 +1,23 @@
+
+
+.title_edit {
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+
+
+.userShowInfor {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: rgb(95, 93, 93);
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+.loading {
+    width: 50px;
+    height: 50px;
+    border: 5px solid blue;
+    border-radius: 100rem;
+    margin: 70px auto 0;
+    position: relative;
+    animation: move 1.5s linear infinite;
+
+    &::before {
+        content: '';
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes move {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

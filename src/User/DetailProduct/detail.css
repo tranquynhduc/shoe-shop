@@ -1,0 +1,150 @@
+.productDetailUi {
+    display: flex;
+}
+
+.productLeft {
+    flex: 3;
+  /*   width: 45%;
+    height: 90vh; */
+}
+
+.productImage {
+    width: 85%;
+    height: 100%;
+
+}
+
+.productRight {
+    flex: 3;
+}
+
+.productBod {
+    flex-direction: column;
+}
+
+.productBrand {
+    font-size: 20px;
+
+
+}
+
+.iconBrand {
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.productName {
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.productprice {
+    margin-left: 20px;
+    color: red;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.productDecrip {
+    margin-top: 45px;
+
+    color: rgb(95, 95, 95);
+    line-height: 25px;
+    height: auto;
+}
+
+.btnBuy {
+    font-weight: 600;
+    color: rgb(252, 252, 252);
+    font-size: 18px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 25px;
+    background: linear-gradient(to right, #0066ff 0%, #ccccff 100%);
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btnBuy:hover {
+    background: linear-gradient(to right, #3399ff 0%, #ccccff 100%);
+    color: rgb(0, 5, 141);
+}
+
+.titleDetail {
+    margin-left: 40px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+
+}
+
+
+.detailProduct__ {
+    width: calc(25% - 22.5px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(142, 138, 138);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.imgDetailProduct {
+    margin: 0 auto;
+    width: 70%;
+}
+.containerDetail{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
+.detailPrice{
+    color: red;
+    margin-bottom: 10px;
+
+}
+.detailName {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+}
+.detailBodyImg{
+   margin-bottom: 15px;
+}
+.btn_detail{
+
+    width: 150px;
+    height: 30px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: linear-gradient(to right,#F4A2A6,#FEC5C9);
+  color:#fff;
+
+}
+.btn_detail:hover{
+    background: linear-gradient(to right,#ea6c73,#FEC5C9);
+}
+.detailProductbody{
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 25px;
+    border-top: 1px solid rgb(161, 156, 156);
+}

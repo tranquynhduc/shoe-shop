@@ -1,0 +1,104 @@
+.iconBack{
+    font-size: 15px;
+
+}
+.btn{
+    border:none;
+    width: 150px;
+   
+
+}
+.userUpdateImg{
+
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.newUserHome{
+
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.newUserForm{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.newUserItem{
+   width: 390px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+
+}
+.newUserItem>label{
+    margin-bottom: 10px ;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.newUserItem>input{
+    height: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.newUserGender>input{
+    margin-top: 15px; 
+}
+.detail_Texttarea{
+    outline: none;
+    width: 805px;
+    border-radius: 5px;
+    height:165px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.newUserGender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+.newUserSelect{
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+ .iconAddUser{
+    position: absolute;
+    margin-top:70px;
+
+}
+.upAvatarIcon{
+  
+    margin-left:110px;
+    font-size: 25px;
+   
+}
+
+.create{
+   
+    margin-right: 20px;
+  
+}
+.listUser_btn{
+    margin-top:10px;
+}
